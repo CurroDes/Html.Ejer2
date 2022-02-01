@@ -1,0 +1,63 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Web Ejercicio 2</title>
+<p></p>
+<body>
+    <h1>Formulario Ejercicio 2</h1>
+    <form id="formulario 2" action="recibeform2.html" 
+    method="post" style="border: 1px solid; margin: 30px; padding: 30px; background-color: rgb(174, 253, 174);">
+
+    <h2>Formulario:</h2>
+
+    <fieldset>
+        <legend>Inserte datos:</legend>
+        <div>
+            <input id="formulario nombre" name="nombre" required type="text" value="" placeholder="Aquí tu nombre" />
+            <p></p>
+            <input type="apell" required value="" placeholder="Aquí su apellido" />
+            <p></p>
+            <input type="email" required value="" placeholder="Aquí su E-mail" />
+            <p></p>
+            <input type="teléfono" required value="" placeholder="Aquí su teléfono" />
+            <p></p>
+            <input type="dirección" required value="" placeholder="Aquí su dirección" />
+            <p></p>
+        </div>    
+
+    
+    </fieldset>
+    <p></p>
+    <p></p>
+
+    <legend>Tabla:</legend>
+    <p></p>
+    <table class="default" border="1">
+    
+    <tr>
+        <th scope="row" >Día</th>
+        <th>Semana</th>
+        <th>Mes</th>
+        <th>Año</th>
+    </tr>
+    <tr>
+        <th>10</th>
+        <td colspan="2" > 4</td>
+        <td>2022</td>
+        
+    </tr>
+    <tr>
+        <th>20</th>
+        <th rowspan="2" >5</th>
+        <th>Enero</th>
+        <th>2022</th>
+    </tr>
+    <tr>
+        <th>10</th>
+        <td>Marzo</td>
+        <td>2022</td>
+</form>
+</body>
+</head>
+</html>
